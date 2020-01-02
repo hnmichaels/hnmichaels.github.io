@@ -1,28 +1,33 @@
 <!DOCTYPE html>
 <html>
-<link rel="stylesheet" type="text/css" href="styles.css">
+<link rel="stylesheet" type="text/css" href="tabstyles.css">
 <body>
 
 <script type="text/javascript" src="functionality.js"></script>
 
 <h1>My First Website</h1>
 
-<a href="about.html">About</a>
 
 <div class="tab">
-	<button class="tablinks" onclick="openSection(attribute, 'Home')">Home</button>
-	<button class="tablinks" onclick="openSection(attribute, 'About')">About</button>
+  <button class="tablinks" onclick="openCity(event, 'London')">London</button>
+  <button class="tablinks" onclick="openCity(event, 'Paris')">Paris</button>
+  <button class="tablinks" onclick="openCity(event, 'Tokyo')">Tokyo</button>
 </div>
 
-<div id="Home" class="tabcontent">
-	<h3>Home</h3>
-	<p>This section will function as the main page.</p>
-</div>
-<div id="About" class="tab content">
-	<h3>About</h3>
-	<p>This section will contain all about information for Haley Michaels.</p>
+<div id="London" class="tabcontent">
+  <h3>London</h3>
+  <p>London is the capital city of England.</p>
 </div>
 
+<div id="Paris" class="tabcontent">
+  <h3>Paris</h3>
+  <p>Paris is the capital of France.</p>
+</div>
+
+<div id="Tokyo" class="tabcontent">
+  <h3>Tokyo</h3>
+  <p>Tokyo is the capital of Japan.</p>
+</div>
 
 
 <p>This website is to function as an online resume for Haley Michaels.</p>

@@ -5,6 +5,15 @@
 
 <h1 align="center">Haley Michaels: An e-Autobiography</h1>
 
+<div class="tab">
+	<button class="tablinks"onclick="openAttribute(test, 'TEST')">Test</button>
+</div>
+
+<div id="Test" class="tabcontent">
+<h3>Test</h3>
+<p>Test text for reference.</p>
+</div>
+
 <h2>About</h2>
 
 <img src="mothersday.jpg" alt=“This is Haley and her fiancé.” style="width:400px;height:300px">
@@ -27,6 +36,22 @@
 <p>The first independent project I will present you with is this website. I built this website from scratch using HTML, CSS, and JavaScript. My end goal with this project is to have my portfolio available to potential employers or for the viewing of my peers.</p>
 
 <p>All work on this website is the property of Haley Michaels. Copyright 2020.</p>
+
+<script>
+function openAttribute(att, attName){
+	var i, tabcontent, tablinks;
+	tabcontent = document.getElementsByAttName("tabcontent");
+	for(i = 0; i < tabcontent.length; i++){
+		tabcontent[i].style.display = "none";
+	}
+	tablinks = document.getElementsByAttName("tablinks");
+	for(i = 0; i < tablinks.length; i++){
+		tablinks[i].attName.replace("active", "");
+	}
+	document.getElementsByID(attName).style.display = "block";
+	att.currentTarget.className += " active";
+}
+</script>
 
 </body>
 </html>

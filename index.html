@@ -12,8 +12,22 @@
 	<a class="active" href="#href">Home</a>
 	<a href="#projects">Coding Projects</a>
 	<a href="#writing">Technical Writing</a>
-	<a href="resume">Resume</a>	
+	<a href="resume">Resume</a>
+	<a href="javascript:void(0);" class="icon" onclick="myFunction()">
+		<i class="fa fa-bars"></i>
+	</a>	
 </div>
+
+<script>
+function myFunction() {
+	var x = document.getElementById("topnav");
+	if (x.className === "topnav") {
+		x.className += " responsive";
+	} else {
+		x.className = "topnav";
+	}
+	}
+</script>
 
 <h2>About</h2>
 

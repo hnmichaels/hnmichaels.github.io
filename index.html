@@ -2,42 +2,17 @@
 <!DOCTYPE html>
 <html>
 <head>
-
-<script>
-function openAttribute(att, attName){
-	var i, tabcontent, tablinks;
-	tabcontent = document.getElementsByAttName("tabcontent");
-	for(i = 0; i < tabcontent.length; i++){
-		tabcontent[i].style.display = "none";
-	}
-	tablinks = document.getElementsByAttName("tablinks");
-	for(i = 0; i < tablinks.length; i++){
-		tablinks[i].attName.replace("active", "");
-	}
-	document.getElementsByID(attName).style.display = "block";
-	att.currentTarget.className += " active";
-}
-</script>
-
 </head>
 <link rel="stylesheet" type="text/css" href="styles.css">
 <body>
 
 <h1 align="center">Haley Michaels: An e-Autobiography</h1>
 
-<div class="tab">
-	<button class="tablinks"onclick="openAttribute(test, 'TEST')">Test</button>
-	<button class="tablinks"onclick="openAttribute(test1, 'TEST1')">Test1</button>
-</div>
-
-<div id="Test" class="tabcontent">
-<h3>Test</h3>
-<p>Test text for reference.</p>
-</div>
-
-<div id="Test1" class="tabcontent">
-<h3>Test1</h3>
-<p>Test text for reference, second attempt.</p>
+<div class="topnav">
+	<a class="active" href="#href">Home</a>
+	<a href="#projects">Coding Projects</a>
+	<a href="#writing">Technical Writing</a>
+	<a href="resume">Resume</a>	
 </div>
 
 <h2>About</h2>

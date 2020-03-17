@@ -8,30 +8,37 @@ h1 {
 p {
 	color: black;
 }
-.topnav {
-	background-color: #333;
-	overflow: hidden;
+
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial;
 }
 
-.topnav a {
-	float: left;
-	color: #f2f2f2;
-	text-align: center;
-	padding: 14px 16px;
-	text-decoration: none;
-	font-size: 17px;
+.tablink {
+  background-color: #555;
+  color: white;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  font-size: 17px;
+  width: 25%;
 }
 
-.topnav a:hover {
-	background-color: #ddd;
-	color: black;
+.tablink:hover {
+  background-color: #777;
 }
 
-.topna a.active {
-	background-color: #4CAF50;
-	color: white;
+.tabcontent {
+  color: white;
+  display: none;
+  padding: 100px 20px;
+  height: 100%;
 }
 
-.topnav .icon {
-	display: none;
-}
+#Home {background-color: red;}
+#News {background-color: green;}
+#Contact {background-color: blue;}
+#About {background-color: orange;}

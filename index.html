@@ -8,49 +8,58 @@
 
 <h1 align="center">Haley Michaels: An e-Autobiography</h1>
 
-<div class="topnav">
-	<a class="active" href="#href">Home</a>
-	<a href="#projects">Coding Projects</a>
-	<a href="#writing">Technical Writing</a>
-	<a href="resume">Resume</a>
-	<a href="javascript:void(0);" class="icon" onclick="myFunction()">
-		<i class="fa fa-bars"></i>
-	</a>	
+<button class="tablink" onclick="openPage('Home', this, 'red')" id="defaultOpen">Home</button>
+<button class="tablink" onclick="openPage('Coding Projects', this, 'green')">Coding Projects</button>
+<button class="tablink" onclick="openPage('Technical Editing', this, 'blue')">Technical Editing</button>
+<button class="tablink" onclick="openPage('Resume', this, 'orange')">Resume</button>
+
+<div id"Home" class="tabcontent">
+	<h3>Home</h3>
+	<img src="mothersday.jpg" alt=“This is Haley and her fiancé.” style="width:400px;height:300px">
+	<p>This website is to function as an online resume for Haley Michaels.</p>
+	<p>The website will contain the contents of a normal resume, and include links to projects developed by Haley Michaels.</p>
+	<p>This website functions as an example of the work Haley Michaels is capable of completing individually. This website was coded in the Notepad application of an ASUS VivoBook in HTML.</p> 
+</div>
+
+<div id"Coding Projects" class="tabcontent">
+	<h3>Coding Projects</h3>
+	<p>In order for you to experience what I am capable of doing as a Computer Science student, this section will contain projects I have worked on in school and independently. I have gathered a wide variety of programs from my years at the University of Alabama in Huntsville.</p>
+	<h4>Projects completed during my education: </h4>
+	<a href="FarSkiesProject.zip">Far Skies Project: Clicker Game</a>
+
+	<h4>Projects completed independently: </h4>
+	<p>The first independent project I will present you with is this website. I built this website from scratch using HTML, CSS, and JavaScript. My end goal with this project is to have my portfolio available to potential employers or for the viewing of my peers.</p>
+
+<p>All work on this website is the property of Haley Michaels. Copyright 2020.</p>
+</div>
+
+<div id="Technical Editing" class="tabcontent">
+	<h3>Technical Editing</h3>
+	<p>This section will contain examples of my skills as a technical editor. It willl also contain my Technical Editing Contract.</p>
+</div>
+
+<div id="Resume" class="tabcontent">
+	<h3>Resume</h3>
+	<p>This section will contain my resume.</p>
 </div>
 
 <script>
-function myFunction() {
-	var x = document.getElementById("topnav");
-	if (x.className === "topnav") {
-		x.className += " responsive";
-	} else {
-		x.className = "topnav";
-	}
-	}
+function openPage(pageName, elmnt, color) {
+  var i, tabcontent, tablinks;
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+
+  tablinks = document.getElementsByClassName("tablink");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].style.backgroundColor = "";
+  }
+  document.getElementById(pageName).style.display = "block";
+  elmnt.style.backgroundColor = color;
+}
+document.getElementById("defaultOpen").click();
 </script>
-
-<h2>About</h2>
-
-<img src="mothersday.jpg" alt=“This is Haley and her fiancé.” style="width:400px;height:300px">
-
-<h2>Purpose</h2>
-
-<p>This website is to function as an online resume for Haley Michaels.</p>
-<p>The website will contain the contents of a normal resume, and include links to projects developed by Haley Michaels.</p>
-<p>This website functions as an example of the work Haley Michaels is capable of completing individually. This website was coded in the TextEdit application of a MacBook Pro in HTML.</p> 
-
-<h2>Portfolio and Projects</h2>
-
-<p>In order for you to experience what I am capable of doing as a Computer Science student, this section will contain projects I have worked on in school and independently. I have gathered a wide variety of programs from my years at the University of Alabama in Huntsville.</p>
-
-<h3>Projects completed during my education: </h3>
-<a href="FarSkiesProject.zip">Far Skies Project: Clicker Game</a>
-
-<h3>Projects completed independently: </h3>
-
-<p>The first independent project I will present you with is this website. I built this website from scratch using HTML, CSS, and JavaScript. My end goal with this project is to have my portfolio available to potential employers or for the viewing of my peers.</p>
-
-<p>All work on this website is the property of Haley Michaels. Copyright 2020.</p>
 
 </body>
 </html>

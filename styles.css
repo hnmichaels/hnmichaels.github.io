@@ -5,6 +5,15 @@ h1 {
 	color: midnightblue;
 	font-family: "American Typewriter", American, serif;
 }
+h2 {
+	color: black;
+}
+h3 {
+	color: black;
+}
+h4 {
+	color: black;
+}
 p {
 	color: black;
 }
@@ -39,6 +48,6 @@ body, html {
 }
 
 #Home {background-color: pink;}
-#Coding Projects {background-color: Orchid;}
-#Technical Editing {background-color: MediumBlue;}
+#Coding Projects {background-color: orange;}
+#Technical Editing {background-color: pink;}
 #Resume {background-color: orange;}

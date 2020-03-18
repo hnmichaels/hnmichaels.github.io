@@ -18,6 +18,14 @@ p {
 	color: black;
 }
 
+img {
+  float: left;
+}
+
+p.clear {
+  clear: both;
+}
+
 body, html {
   height: 100%;
   margin: 0;

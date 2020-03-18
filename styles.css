@@ -5,8 +5,8 @@ h1 {
 	color: midnightblue;
 	font-family: "American Typewriter", American, serif;
 	margin: 0px;
-	padding-top: 50px;
-	padding-bottom: 50px;
+	padding-top: .67em;
+	padding-bottom: .67em;
 }
 h2 {
 	color: black;

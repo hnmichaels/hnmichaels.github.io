@@ -23,7 +23,7 @@ p {
 ul {
 	color: black;
 }
-blockquote {
+#Author{
 	color: black;
 	font-family: "American Typewriter", American, serif;
 	background-color: lightgray;
@@ -36,7 +36,7 @@ blockquote {
 	padding-bottom: 10px;
 	padding-left: 5px;
 }
-blockquote1 {
+#MaeJemison{
 	color: white;
 	font-family: "American Typewriter", American, serif;
 	background-color: midnightblue;

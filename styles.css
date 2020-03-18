@@ -1,5 +1,5 @@
 body {
-	background-color: ghostwhite;
+	background-color: skyblue;
 }
 h1 {
 	color: midnightblue;
@@ -17,9 +17,13 @@ h4 {
 p {
 	color: black;
 }
+blockquote {
+	color: midnightblue;
+	font-family: "American Typewriter", American, serif;
+}
 footer {
 	height: 50px;
-	background-color: ghostwhite;
+	background-color: skyblue;
 }
 
 img {

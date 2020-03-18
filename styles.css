@@ -4,6 +4,7 @@ body {
 h1 {
 	color: midnightblue;
 	font-family: "American Typewriter", American, serif;
+	margin: 0px;
 }
 h2 {
 	color: black;

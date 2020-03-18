@@ -42,7 +42,7 @@ body, html {
 
 .tabcontent {
   color: white;
-  display: none
+  display: none;
   padding: 100px 20px;
   height: 100%;
 }

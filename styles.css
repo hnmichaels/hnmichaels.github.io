@@ -61,11 +61,6 @@ footer {
 	background-color: skyblue;
 }
 
-img {
-	float: right;
-	border-radius: 8px;
-}
-
 p.clear {
  	clear: both;
 }

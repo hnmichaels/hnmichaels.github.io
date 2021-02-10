@@ -93,6 +93,11 @@ body, html {
   	height: 100%;
 }
 
+.marginauto {
+	margin: 10px auto 20px;
+	display: block;
+}
+
 #Home {background-color: mistyrose;}
 #AboutMe{background-color: mistyrose;}
 #CodingProjects {background-color: peachpuff;}

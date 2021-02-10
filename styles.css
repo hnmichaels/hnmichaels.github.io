@@ -83,7 +83,7 @@ body, html {
   	cursor: pointer;
   	padding: 14px 16px;
   	font-size: 17px;
-  	width: 16.66%;
+  	width: 14.6%;
 }
 
 .tablink:hover {
@@ -105,6 +105,7 @@ body, html {
 #Home {background-color: mistyrose;}
 #AboutMe{background-color: mistyrose;}
 #CodingProjects {background-color: peachpuff;}
-#Resume {background-color: lavenderblush;}
+#Education {background-color: lavenderblush;}
+#Experience {background-color: lavenderblush;}
 #Skills {background-color: lavenderblush;}
 #ContactMe {background-color: lavenderblush;}

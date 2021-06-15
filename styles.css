@@ -27,6 +27,10 @@ p {
 ul {
 	color: black;
 }
+b, strong {
+    font-weight: bolder;
+    color: black;
+}
 #Author{
 	color: black;
 	font-family: "American Typewriter", American, serif;
